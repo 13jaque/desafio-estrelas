@@ -1,0 +1,83 @@
+body {
+
+    background-color: black;   
+    box-sizing: border-box; 
+    left: 0px;
+    margin: 170px;
+    margin-left: 15%;
+    padding: 0; 
+
+}
+
+.logo {
+
+    left: 25%;
+    position: absolute;
+    top: -22%;
+    width: 40%;
+    
+}
+
+.imagemFundo {
+
+    justify-content: flex-end; 
+    left: 80%;
+    position: absolute;
+    top: 70%;
+    width: 25%;
+
+}
+
+.imagem-container {
+
+    display: grid;
+    grid-auto-rows: 300px;
+    grid-gap: 34px;
+    grid-template-columns: repeat(2,1fr);
+   
+  }
+
+.item-imagem{
+
+    position: relative;
+
+}
+
+.item-imagem .img-personagem{
+
+    object-fit: cover;
+    border-radius: 180px;
+    box-shadow: 0 6px 40px 0 aquamarine;
+    height: 100%;
+    width: 57%;
+
+}
+.item-imagem .nomePersonagem {
+
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    bottom: -5%;
+    color:blanchedalmond;
+    left: 9%;
+    font-family:monospace;
+    font-size: 16pt;
+    width: 55%;
+    padding: 10px;
+    position: absolute;
+    
+}
+
+.h1{
+
+    grid-row: span 1;
+
+}
+
+.w1{
+
+    grid-row: span 1;
+
+}
+
+
+
