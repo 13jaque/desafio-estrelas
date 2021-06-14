@@ -2,7 +2,6 @@ const imagemP1 = document.getElementById('imgP1');
 const imagemP2 = document.getElementById('imgP2');
 const imagemP3 = document.getElementById('imgP3');
 const imagemP4 = document.getElementById('imgP4');
-const carregamento = document.querySelector('button');
 const mostrarPrimeiroNome = document.getElementById('primeiroPersonagem');
 const mostrarSegundoNome = document.getElementById('segundoPersonagem');
 const mostrarTerceiroNome = document.getElementById('terceiroPersonagem');
@@ -124,4 +123,4 @@ personagem = () => {
     
 }
 
-carregamento.onclick = personagem();
+personagem();
