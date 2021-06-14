@@ -11,11 +11,10 @@ body {
 
 .logo {
 
-    justify-content: flex-end;
-    left: 25%;
-    position: absolute;
-    top: -22%;
-    width: 40%;
+    left: 10%;
+    margin-top: -31%;
+    position: relative;
+    width: 60%;
     
 }
 
@@ -24,7 +23,7 @@ body {
     justify-content: flex-end; 
     left: 80%;
     position: absolute;
-    top: 70%;
+    top: 71%;
     width: 25%;
 
 }
@@ -35,6 +34,7 @@ body {
     grid-auto-rows: 300px;
     grid-gap: 34px;
     grid-template-columns: repeat(2,1fr);
+    margin-top: -20%;
    
   }
 
