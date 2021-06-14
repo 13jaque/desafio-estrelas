@@ -11,7 +11,7 @@ let totalPersonagem = 671;
 
 gerarPersonagem = () => {
 
-    return Math.floor(Math.random()  * totalPersonagem);
+    return Math.floor(Math.random() * totalPersonagem);
     
 }
 
