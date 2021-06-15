@@ -9,22 +9,33 @@ body {
 
 }
 
-.logo {
+main{
 
-    left: 10%;
-    margin-top: -30%;
-    position: relative;
-    width: 60%;
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    margin-left: -17%;
+    width: 120%; 
+
+}
+
+.logo {
     
+    justify-content: flex-end;
+    left: 26%;
+    margin-top: -21%;
+    position: absolute;
+    width: 41%;
+
 }
 
 .imagemFundo {
 
-    justify-content: flex-end; 
-    left: 80%;
+    justify-content: flex-end;
+    left: 78%;
     position: absolute;
-    top: 71%;
-    width: 25%;
+    top: 75%;
+    width: 22%;
 
 }
 
@@ -32,10 +43,12 @@ body {
 
     display: grid;
     grid-auto-rows: 300px;
-    grid-gap: 34px;
+    grid-column-gap: 35%;
+    grid-row-gap: 3%;
     grid-template-columns: repeat(2,1fr);
-    margin-top: -20%;
-   
+    margin-top: 2%;
+    margin-left: -12%;
+
   }
 
 .item-imagem{
@@ -46,23 +59,22 @@ body {
 
 .item-imagem .img-personagem{
 
-    object-fit: cover;
-    border-radius: 180px;
+    border-radius: 140px;
     box-shadow: 0 6px 40px 0 aquamarine;
-    height: 100%;
-    width: 57%;
+    height: 95%;
+    object-fit: fill;
+    width: 135%;
 
 }
 .item-imagem .nomePersonagem {
 
-    position: absolute;
     background-color: rgba(0, 0, 0, 0.8);
-    bottom: -5%;
-    color:blanchedalmond;
-    left: 9%;
-    font-family:monospace;
+    bottom: 2%;
+    color: blanchedalmond;
+    font-family: monospace;
     font-size: 16pt;
-    width: 55%;
+    left: 42%;
+    width: 120%;
     padding: 10px;
     position: absolute;
     
