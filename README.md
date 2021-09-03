@@ -3,10 +3,15 @@ Pagina web que mostra 4 personagens aleatórios de Rick e Morty e seus nomes sem
 
 ## Tecnologias
 
-1.HTML
-2.CSS
-3.JavaScript
-4.API Rick e Morty 
+1. HTML
+ 
+2. CSS
+
+3. Html
+
+4. JavaScript
+
+5. API Rick e Morty 
 
 1. Projeto  desenvolvido  com : Html - CSS - JavaScript;
 
